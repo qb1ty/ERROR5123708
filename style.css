@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;   
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #ccc;
+}
+
+.main-header {
+    background: url('https://e0.pxfuel.com/wallpapers/192/746/desktop-wallpaper-i-took-a-screen-shot-edited-it-into-a-from-song-of-war-black-plasma-studio-r-minecraft-minecraft-dark.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.text-block {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-block h1 {
+    margin-top: 310px;
+}
+
+.text-block a {
+    margin-bottom: 330px;
+}
+
+main {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_content-block {
+    padding: 0 8px 0 20px;
+}
